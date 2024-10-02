@@ -1,0 +1,139 @@
+/* General styling for action buttons */
+.action-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.action-button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the delete button specifically */
+#delete-product-btn {
+    background-color: #dc3545;
+}
+
+#delete-product-btn:hover {
+    background-color: #c82333;
+}
+
+/* Styling for product list items */
+.product-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+    display: inline-block;
+    width: calc(33% - 40px); /* Adjust the width as needed */
+    box-sizing: border-box;
+    vertical-align: top;
+    text-align: center; /* Center text inside product items */
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centering the tiles */
+    padding-top: 20px;
+}
+
+/* Ensure checkboxes are properly aligned */
+.delete-checkbox {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* Header styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+}
+
+.button-container a,
+.button-container button {
+    margin-left: 10px;
+}
+
+.inline-form {
+    display: inline;
+}
+
+/* Styling for the add page form */
+.form-container {
+    padding: 20px;
+}
+
+.product-form {
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.product-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.product-form input,
+.product-form select {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.product-form .attribute-section {
+    margin-top: 20px;
+}
+
+.error {
+    color: red;
+    margin: 10px 0;
+}
+
+/* Styling for the grey cancel button */
+.cancel-button {
+    background-color: #6c757d;
+    color: white;
+}
+
+.cancel-button:hover {
+    background-color: #5a6268;
+}
+
+/* Footer styling */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+    font-size: 14px;
+}
