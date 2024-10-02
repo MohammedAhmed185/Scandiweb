@@ -1,7 +1,4 @@
 # Scandiweb
-
-# Technical Documentation
-
 ## Overview
 This document outlines the system architecture and design patterns employed in the development of the application, which follows the MVC (Model-View-Controller) architecture. The frontend utilizes PHP, HTML, and CSS, while MySQL is leveraged for backend data management. The system also incorporates several design patterns, including Strategy, Factory, and Singleton, to ensure code modularity and reusability.
 
@@ -39,14 +36,14 @@ This document outlines the system architecture and design patterns employed in t
 - **Function**: The View is responsible for rendering the user interface and presenting data.
 - **Implementation**: It uses PHP, HTML, and CSS to display the data provided by the Controllers, ensuring a consistent and user-friendly interface.
 
-## Client-Side Implementation
-
-- **PHP**: Facilitates server-side logic and the generation of dynamic web content.
-- **HTML**: Structures the layout of web pages.
-- **CSS**: Provides styling and design for the web pages, ensuring a visually appealing and responsive user interface.
 
 ## Database Implementation
 
 ### MySQL
 - **Function**: MySQL serves as the database management system, overseeing data storage, retrieval, and manipulation to ensure efficient data handling throughout the application.
 
+## Client-Side Implementation
+
+- **PHP**: Facilitates server-side logic and the generation of dynamic web content.
+- **HTML**: Structures the layout of web pages.
+- **CSS**: Provides styling and design for the web pages, ensuring a visually appealing and responsive user interface.
