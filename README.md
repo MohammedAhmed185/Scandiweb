@@ -1,4 +1,7 @@
 # Scandiweb
+
+## Link: http://swshop.kesug.com/
+
 ## Overview
 This document outlines the system architecture and design patterns employed in the development of the application, which follows the MVC (Model-View-Controller) architecture. The frontend utilizes PHP, HTML, and CSS, while MySQL is leveraged for backend data management. The system also incorporates several design patterns, including Strategy, Factory, and Singleton, to ensure code modularity and reusability.
 
